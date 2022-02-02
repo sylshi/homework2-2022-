@@ -1,0 +1,97 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+   line-height: 36px;
+   margin-left: 50px;
+}
+
+nav {
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+}
+nav li{
+	padding:10px;
+	width:100px;
+	display: inline-block;
+}
+
+nav:hover {
+   color: #999;
+}
+
+h1.intro {
+   font-family:'Times New Roman', Times, serif;
+   font-size: 48px;
+   font-weight: bold;
+}
+
+h2.intro{
+
+   font-family:'Times New Roman', Times, serif ;
+   font-size: 18px;
+
+}
+
+main h1 {
+   font-size: 24px;
+}
+
+main h2 {
+   color:#999;
+   font-size: 14px;
+}
+
+/*
+img {
+   border-radius: 5%;
+   -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: .5s ease-in-out;
+}
+
+img:hover {
+   -webkit-transform: scale(1.3);
+  transform: scale(1.1);
+  transition: .5s ease-in-out;
+}
+*/
+#headPicture {
+   text-align: center;
+}
+
+.projectContent h3{
+   color:lightseagreen;
+   font-weight: bold;
+   font-size: 16px;
+}
+.projectContent h4{
+   color:black;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.projectContent h2{
+   color:black;
+   font-weight: bold;
+   font-size: 24px;
+   width: 800px;
+   
+}
+
+.painPoint{
+   width: 500px;
+}
+
+p.title {
+   font-size: 18px;
+   font-weight: bold;  
+}
+
+p.content {
+   font-size: 16px;
+}
+
+
